@@ -1,6 +1,28 @@
 # 第1周
 
 - 作業討論 & review
+  - 每位同學都要起來報告
+  - 再次強調這邊的風格是從做中學，給目標再去研究怎麼實現
 - Q&A
+  - 如果覺得進度太慢可以跟我說
 - 公布新作業
+  - 作業繳交方式相同
+  - JS 相關
+    - TodoList_CRUD
+      - Lv0 丐版 顯示 新增
+        - 目標:能透過JS操作DOM,分析拆解問題並實作
+          - 畫面需要什麼元素? 要寫出幾個function? 怎麼觸發function?
+      - Lv1 陽春版 增刪查改
+        - 目標:能透過JS操作DOM,理解JS型別和語法
+      - Lv2 美化版 套上CSS美化
+        - 目標:持續練習CSS語法
+      - Lv3 使用 bootstrap 這個UI框來改變樣式並結合客製化CSS
+        - 目標: 練習使用 library
+        - 政府網頁使用 bs4 範例: https://efile.tax.nat.gov.tw/irxw/index.jsp
 - VScode 教學
+  - 實用功能
+    - 多選一併處理
+    - 取代
+    - 移動程式碼位置
+  - 套件
+    - Live Server
