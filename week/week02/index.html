@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>手刻RWD測試</title>
+    <style>
+      .rwd-test {
+        color: pink;
+      }
+
+      /* EX : 當寬度 >= 1024px 時套用 */
+      @media screen and (min-width: 1024px) {
+        /* CSS Style */
+        .rwd-test {
+          color: red;
+        }
+      }
+
+      /* EX : 當寬度 < 768px 時套用 */
+      @media screen and (max-width: 768px) {
+        /* CSS Style */
+        .rwd-test {
+          color: blue;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <p class="rwd-test">測試RWD效果(變換顏色)</p>
+    <ul>
+      <li><p>1024px <= x | 紅色</p></li>
+      <li><p>768px < x < 1024px | 粉色</p></li>
+      <li><p>x <= 768px | 藍色</p></li>
+    </ul>
+    <h3 id="width-display">${螢幕寬度}</h3>
+
+    <script>
+      function updateWidth() {
+        const width = window.innerWidth;
+        const widthDisplay = document.getElementById("width-display");
+        widthDisplay.textContent = `${width}px`;
+      }
+
+      // 初始化顯示螢幕寬度
+      updateWidth();
+
+      // 監聽螢幕尺寸變化
+      window.addEventListener("resize", updateWidth);
+    </script>
+  </body>
+</html>
