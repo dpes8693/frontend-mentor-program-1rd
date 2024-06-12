@@ -9,3 +9,4 @@
 - [week03](https://github.com/dpes8693/frontend-mentor-program-1rd/tree/main/week/week03)
 - [week04](https://github.com/dpes8693/frontend-mentor-program-1rd/tree/main/week/week04)
 - [week05](https://github.com/dpes8693/frontend-mentor-program-1rd/tree/main/week/week05)
+- [week06](https://github.com/dpes8693/frontend-mentor-program-1rd/tree/main/week/week06)
