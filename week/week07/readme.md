@@ -57,7 +57,7 @@
 | 寶可夢圖鑑  | Jc22124  | https://jc22124.github.io/pokedax  |
 | 星際大戰人物搜尋器  | Kuan14   | https://github.com/Kuan14/Star-Wars-  |
 | 國家查詢網  | KunTsai    | https://kuntsai.github.io/fetch/  |
-| 台灣縣市空氣品質查詢器  | wdOq    | https://wdoq.github.io/hw7  |
+| 台灣地區空氣品質查詢器  | wdOq    | https://wdoq.github.io/hw7  |
 | 迪士尼角色搜尋器  | Jennahou    | https://jennahou.github.io/week7hw/api.html  |
 
 ## 累積的大問題有開一個 blog 單獨回答
